@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    /* width: inherit; */
+    width: 1200px;
+
+}
+
+    
+.carrier{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: auto;
+    margin-top: 30px;
+    margin: 40px;
+
+}
+.navbar{
+    display: flex;
+    nav{
+        margin: 10px;
+    }
+    img{
+        margin: 0px 40px;
+    }
+    align-items: center;
+    justify-items: center;
+    
+}
+.navlog{
+    display: flex;
+    gap: 15px;
+    margin-right: 60px;
+    align-items: center;
+    button{
+        width: 70px;
+        height: 30px;
+        border-radius: 5px;
+        background: transparent;
+        border: 1px solid black;
+    }
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    padding: auto;
+    
+    }
+
+
+.heroimg img{
+    background: url(./images/image-hero-desktop.png);
+    background-repeat: no-repeat;
+    width: 250px;
+    background-size: contain;
+    
+}
+.herocontent{
+    width: 360px;
+}
+
+.herocontent button{
+    
+        width: 100px;
+        height: 40px;
+        border-radius: 10px;
+        background: black;
+        color: white;
+        
+    }
+    .herocontent h1{
+        margin-bottom: 20px;
+        font-size: 40px;
+    }
+    .herocontent p{
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    .menu{
+        display: none;
+    }
+    .heroicons{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        margin-left: 160px;
+        
+        
+        
+    }
+    @media (max-width:994px){
+        body{
+          /* overflow-y: scroll;   */
+          width: inherit;
+        }
+
+        .hero{
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+        }
+        .heroimg{
+            /* background: url(./images/image-hero-mobile.png); */
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 400px;
+            height:400px ;
+        }
+        .herocontent h1{
+            font-size: 40px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+        .herocontent p{
+            font-size: 25px;
+            margin-bottom: 60px;
+        }
+        .heroicons{
+            font-size: 25px;
+            margin-bottom: 60px;
+        }
+    }
+    @media(max-width:774px){
+       /* .carrier{
+        display: none; */
+        .navlog{
+            display: none;
+        }
+        .navbar nav{
+            display: none;
+        }
+        /* .menu{
+            display:inline-block;
+            align-items: right;
+        } */
+
+       } 
+       
+       
+       /* .menu{
+        
+            display: block;
+            margin-left: 50px; */
+        
+       
+     
+
+    
+
+    
